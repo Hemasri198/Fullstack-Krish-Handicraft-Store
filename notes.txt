@@ -1,0 +1,65 @@
+Computing devices: 
+                By hosting and running the applications installed on them.
+
+Applications:
+              Applicationsare are nothing but softwares that are written to perform certain tasks.
+Software:
+          Software here simply to a set of files that contains numeous prgs.
+
+Program:
+        It is a set of instructions that the application executed on the Computing devices.
+        Programming is the ability to write a set of instructions that can be executed when required.
+
+
+
+
+
+
+Introduction:
+
+Express:
+        A frameworkfor building web servers in node.js
+
+Routes:
+       To create a route, you use the app.get(), app.post(), app.put(), app.delete() methods, depending on the HTTP request type (GET, POST, PUT, DELETE).
+
+
+
+SERVER CODE Explanation::
+
+Step-by-Step Explanation:
+Import Express:
+
+            const express = require('express');
+            This line loads the Express framework into your program. Think of Express as a tool that helps you easily build a web server.
+ 
+Create the Express Application:
+
+            const app = express();
+            This creates a web application using Express, and the app variable will hold all the logic of our server (such as handling requests, sending responses, etc.).           
+              
+
+Start the Server:
+
+              app.listen(5000, () => console.log('Server is running on port 5000'));
+              app.listen(5000) makes the server listen for incoming requests on port 5000 (which is like a specific "channel" on your computer).
+              Once the server is up and running, the message "Server is running on port 5000" is shown in the console to let you know everything is working.
+
+
+GET Route (/test):
+
+              When someone visits /test (e.g., http://localhost:5000/test), the server will send back "Hello World".
+
+Middleware (express.json()):
+
+               This part helps the server understand and handle JSON data sent in a POST request. It allows the server to read data that comes in as JSON (like user information).
+
+POST Route (/api/test):
+
+               When a client (like a user or another program) sends some data to /api/test (e.g., a form or an API request), the server will:
+               Log the data in the console.
+               Send a response back to the client, saying "Data received" and show the same data it just received.
+
+
+    
+                   

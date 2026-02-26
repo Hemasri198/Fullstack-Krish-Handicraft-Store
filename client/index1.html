@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krisjn's Handcraft Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="http://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">
+            <img src="logo.png" alt="Bussiness logo">
+        </a>
+        <ul class="navbar">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#Products">Products</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#reviews">Review</a></li>
+        </ul>
+        <div class="header-btn">
+            <a href="#" class="sign-up">Sign Up</a>
+            <a href="#" class="sign-in">Sign In</a>
+
+        </div>
+    </header>
+    <section class="Home" id="Home">
+        <div class="text">
+            <h1><span>Looking</span> to <br>own  a piece of Rajasthan</h1>
+            <p>We are here to help you explore the best of Handicraft's from Rajasthan.</p>
+            <P>Explore our collection, place an order and get ready to receive the Rajasthan touch at your home. </P>
+            <div class="app-stores">
+                <img src="app store logo.jpg" alt="AppStore">
+                <img src="play logo.jpg" alt="PlayStore">
+            </div>
+        </div>
+
+        <div class="form-container" id="auth-form">
+            <h2>Sign in</h2>
+            <form id="login-form">
+                <input type="email" id="login-email" placeholder="your email" required>
+                <input type="password" id="login-password" placeholder="your password  " required>
+                <button type="submit">Sign in </button>
+                <p>Not registered ??<a href="#" id="show-registered">Sign up</a> </p>
+            </form>
+        </div>
+        <div class="form-container" id="register-form">
+        <h2>sign up</h2>
+        <form id="signup-form" >
+            <input type="text" id="signup-name" placeholder="your name" required>
+            <input type="email" id="signup-email" placeholder="your email" required>
+            <input type="password" id="signup-password" placeholder="your password" required>
+            <button type="submit"> sign up</button>
+        </form>
+        <p>Already registered?? <a href="#" id="show-login">Sign in</a></p>
+        </div>
+        
+        <div class="form-container">
+            <h2>Place an Order</h2>
+            <form action="#" method="Post">
+                <select name="product" required>
+                    <option value="" disabled selected>Select product</option>
+                    <option value="Textile">Traditional Textile</option> 
+                    <option value="Pottery">Hand-Painted Pottery</option>
+                    <option value="Jewellery">Rajasthani Jewellery</option>
+                    <option value="Furniture">Handcraft Furniture</option>
+                    <option value="Carving">Wooden Carving</option>
+                    <option value="Crockery">Rajasthani Crockery</option>
+                </select>
+                <input type="number" name="Qualitity" placeholder="Quantity" required min="1">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="tel" name="phone" placeholder="Your phone" >
+                <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+                <button type="submit">Place Order</button>
+            </form>
+        </div>
+
+    </section>
+    <section class="service" id="service">
+        <div class="heading">
+            <span>How to</span>
+            <h1>Get the best Rajasthani Handcrafts delivered at your doorstep.</h1>
+        </div>
+        <div class="service-container">
+            <div class="box">
+                <i class="bx bx-windows"></i>
+                <h2>Browse the collection</h2>
+                <p>Choose what you like from our rich collection listed inthe following section</p>
+            </div>
+            <div class="box">
+                <i  class="bx bxl-shopify"></i>
+                <h2>Place an Order</h2>
+                <p>Place your order by filling up the form in the above section.</p>
+            </div>
+            <div class="box">
+                <i class="bx bx-credit-card"></i>
+                <h2>Checkout Online</h2>
+                <p>Pay us online using your preferred card, UPI or payment geteway</p>
+            </div>
+        </div>
+    </section>
+    <!--product Section-->
+    <section class="Products" id="Products">
+        <div class="heading">
+            <span>Best Options</span>
+            <h1> Explore Our top deals from our Top Handicrafts Collection</h1>
+        </div>
+        <div class="Products-container">
+            <div class="box">
+                <img src="img/1.webp"
+                alt="Tradition Textile">
+                <h2>Traditional Textile</h2>
+                <h3>Rs.2400/piece</h3>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+            <div class="box">
+                <img src="img/2.webp"
+                alt="Tradition Textile">
+                <h2>Hand-Painted Pottery</h2>
+                <h3>Rs.400/piece</h3>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+            <div class="box">
+                <img src="img/3.webp"
+                alt="Rajasthani Jewellery">
+                <h2>Rajasthani Jewellery </h2>
+                <h3>Rs.48400/piece</h3>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+            <div class="box">
+                <img src="img/4.webp"
+                alt="Handicraft Furniture">
+                <h2>Handcraft Furniture</h2>
+                <h3>Rs.18400/piece</h3>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+            <div class="box">
+                <img src="img/5.webp"
+                alt="Wooden Carving">
+                <h2>Wooden carving</h2>
+                <h3>Rs.4200/piece</h3>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+            <div class="box">
+                <img src="img/6.webp"
+                alt="Rajasthani Crockery">
+                <h2>Rajasthani Crockery</h2>
+                <h3>Rs.200/piece</h3>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+        </div>
+    </section>
+    <!--About Section-->
+    <section class="about" id="about">
+        <div class="heading">
+            <span>About Us</span>
+            <h1>Krish's Handcraft Store</h1>
+        </div>
+        <div class="about-container">
+            <div class="about-img">
+                <img src="img/Krish.webp" alt="krish's Image">
+            </div>
+            <div class="about-text">
+                <p>Krish is a passionate young entrepreneur form Jaipur,Rajasthan,who is taking his
+                 family's rich tradition of handicrafts into the digital world.<br><br>As the 
+                 first in his family to bring their craft online, krish combines a love for traditional 
+                 Rajasthani artistry with a modren approach to bisiness.<br><br>His store offers an 
+                 exquisite range of handmade products,each reflacting the culture and craftmanship of Rajasthan,
+                 curated for those who appreciate authenticity and heritage. <br> <br> krish is dedicated to 
+                 sharing his family's story and skills with the world,ensuring that the beauty of Rajasthani 
+                 handicrafts reaches every corner of the globe.</p>
+                 <a href="#" class="btn">Whatsapp at 98765 43210</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Reviews-->
+    <section class="reviews" id="reviews">
+        <div class="heading">
+            <span>Reviews</span>
+            <h1>What our Customers Says</h1>
+        </div>
+
+        <div class="reviews-container">
+            <div class="box">
+                <div class="rev-img">
+                    <img src="img/rev1.png" 
+                    alt="Customers 1">
+                </div>
+                <h2>Advait</h2>
+                <div class="stars">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+                <p>krish's  store offers such a beautiful
+                    variety of handmade crafts.The whole 
+                    online shopping experience was smooth,
+                    and I loved how quickly i received my order.
+                    It's great to see tradition meet modern 
+                    technology.
+                </p>
+            </div>
+            <div class="box">
+                <div class="rev-img">
+                    <img src="img/rev2.png" 
+                    alt="Customers 2">
+                </div>
+                <h2>Priya & Madhav</h2>
+                <div class="stars">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+                <p>We Wanted something 
+                    authentic for our new 
+                    home and krish's Handicrafts Store 
+                    exceeded our expectations. The
+                    quality and craftmanship are 
+                    unmatched and it feels like we
+                    brought pieces of Rajasthan
+                    into our living room. 
+                </p>
+            </div>
+            <div class="box">
+                <div class="rev-img">
+                    <img src="img/rev3.png" 
+                    alt="Customers 3">
+                </div>
+                <h2>Disha</h2>
+                <div class="stars">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                </div>
+                <p>The handmade Pottery I 
+                    ordered from krish's store is 
+                    simply stunning. The vibrant 
+                    colors and intricate designs
+                    really add warmth to my space.
+                    It feels like a personal
+                    connection to Rajasthani culture.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!--Newsletter-->
+    <section class="newsletter">
+        <h2>Subscribe to Newsletter</h2>
+        <div class="box">
+            <input type="text"
+             placeholder="Enter your Email...">
+             <a href="#" class="btn">Subscribe</a>
+
+        </div>
+    </section>
+    <div class="copyright">
+        <p>&#169; krish's Handicrafts Store ||
+            All Rights Reserved
+        </p>
+    </div>
+
+    <div class="social">
+        <a href="#">
+            <i class="bx bxl-facebook"></i>
+        </a>
+        <a href="#">
+            <i class="bx bxl-twitter"></i>
+        </a>
+        <a href="#">
+            <i class="bx bxl-instagram"></i>
+        </a>
+    </div>
+    <script src="main.js"></script>
+
+    <script>
+        let token = null;
+
+
+        async function fetchOrders() {
+            try {
+                const response = await fetch('http://localhost:5000/api/order/my-orders', {
+                    headers: {
+                        'Authorization': `Bearer ${token}`,
+                    },
+                });
+                if (response.status === 401 || response.status === 403) {
+                    alert('Session expired. Please log in again.');
+                    token = null;
+                    showSection(homeSection);
+                    authForm.style.display = 'block';
+                    registerForm.style.display = 'none';
+                    orderForm.style.display = 'none';
+                    updateNavbar();
+                    return;
+                }
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const orders = await response.json();
+                const ordersDiv = document.getElementById('user-orders');
+                if (!orders || orders.length === 0) {
+                    ordersDiv.innerHTML = '<p>No orders found.</p>';
+                } else {
+                    ordersDiv.innerHTML = '<h3>Your Orders</h3>' + orders.map(order => `
+                        <div>
+                            <p><strong>Product:</strong> ${order.product}</p>
+                            <p><strong>Quantity:</strong> ${order.quantity}</p>
+                            <p><strong>Date:</strong> ${new Date(order.created_at).toLocaleString()}</p>
+                        </div>
+                    `).join('<hr>');
+                }
+            } catch (error) {
+                console.error('Error fetching orders:', error);
+                document.getElementById('user-orders').innerHTML = `<p>Error loading orders: ${error.message}</p>`;
+            }
+        }
+
+
+        function updateNavbar() {
+            const signUpLink = document.getElementById('sign-up-link');
+            const signInLink = document.getElementById('sign-in-link');
+            if (token) {
+                signUpLink.style.display = 'none';
+                signInLink.style.display = 'none';
+            } else {
+                signUpLink.style.display = 'inline';
+                signInLink.style.display = 'inline';
+            }
+        }
+
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const authForm = document.getElementById('auth-form');
+            const registerForm = document.getElementById('register-form');
+            const orderForm = document.getElementById('order-form');
+            const dashboard = document.getElementById('dashboard');
+            const homeSection = document.getElementById('Home');
+
+
+            function showSection(section) {
+                homeSection.style.display = section === homeSection ? 'grid' : 'none';
+                dashboard.style.display = section === dashboard ? 'block' : 'none';
+            }
+
+
+            updateNavbar();
+
+
+            document.getElementById('show-register').addEventListener('click', (e) => {
+                e.preventDefault();
+                authForm.style.display = 'none';
+                registerForm.style.display = 'block';
+                orderForm.style.display = 'none';
+            });
+
+
+            document.getElementById('show-login').addEventListener('click', (e) => {
+                e.preventDefault();
+                authForm.style.display = 'block';
+                registerForm.style.display = 'none';
+                orderForm.style.display = 'none';
+            });
+
+
+            document.getElementById('login-form').addEventListener('submit', async (e) => {
+                e.preventDefault();
+                const email = document.getElementById('login-email').value;
+                const password = document.getElementById('login-password').value;
+
+
+                try {
+                    const response = await fetch('http://localhost:5000/api/auth/login', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ email, password }),
+                    });
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    const data = await response.json();
+                    if (data.token) {
+                        token = data.token;
+                        showSection(dashboard);
+                        fetchOrders();
+                        updateNavbar();
+                    } else {
+                        alert(data.message);
+                    }
+                } catch (error) {
+                    console.error('Error during login:', error);
+                    alert(`An error occurred during login: ${error.message}`);
+                }
+            });
+
+
+            document.getElementById('signup-form').addEventListener('submit', async (e) => {
+                e.preventDefault();
+                const name = document.getElementById('signup-name').value;
+                const email = document.getElementById('signup-email').value;
+                const password = document.getElementById('signup-password').value;
+
+
+                try {
+                    const response = await fetch('http://localhost:5000/api/auth/register', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ email, password, name }),
+                    });
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    const data = await response.json();
+                    alert(data.message);
+                    if (response.ok) {
+                        authForm.style.display = 'block';
+                        registerForm.style.display = 'none';
+                        orderForm.style.display = 'none';
+                    }
+                } catch (error) {
+                    console.error('Error during signup:', error);
+                    alert(`An error occurred during signup: ${error.message}`);
+                }
+            });
+
+
+            document.getElementById('place-order-form').addEventListener('submit', async (e) => {
+                e.preventDefault();
+                const formData = new FormData(e.target);
+                const orderData = Object.fromEntries(formData);
+
+
+                try {
+                    const response = await fetch('http://localhost:5000/api/order/place-order', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'Authorization': `Bearer ${token}`,
+                        },
+                        body: JSON.stringify(orderData),
+                    });
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    const data = await response.json();
+                    alert(data.message);
+                    if (response.ok) {
+                        showSection(dashboard);
+                        fetchOrders();
+                    }
+                } catch (error) {
+                    console.error('Error during order placement:', error);
+                    alert(`An error occurred during order placement: ${error.message}`);
+                }
+            });
+
+
+            document.getElementById('place-new-order').addEventListener('click', () => {
+                showSection(homeSection);
+                authForm.style.display = 'none';
+                registerForm.style.display = 'none';
+                orderForm.style.display = 'block';
+            });
+
+
+            document.getElementById('logout').addEventListener('click', () => {
+                token = null;
+                showSection(homeSection);
+                authForm.style.display = 'block';
+                registerForm.style.display = 'none';
+                orderForm.style.display = 'none';
+                updateNavbar();
+            });
+        });
+    </script>
+</body>
+</html>

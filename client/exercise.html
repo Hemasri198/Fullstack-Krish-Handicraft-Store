@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood changer Website</title>
+</head>
+<style>
+    body{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        font-weight: 700;
+        font-style: bold;
+        
+    }
+    .title{
+        font-size: 50px;
+    }
+    .happy
+    {
+        background-color: #8d39db;
+        border: 2px solid whitesmoke;
+        border-radius: 5px;
+        padding: 12px 25px;
+        margin: 10px;
+        color: white;
+        font-weight: 700;
+    }
+    .sad
+    {
+        background-color: #8d39db;
+        border: 2px solid whitesmoke;
+        border-radius: 5px;
+        padding: 12px 25px;
+        margin: 10px;
+        color: white;
+        font-weight: 700;
+    }
+    .excited
+    {
+        background-color: #8d39db;
+        border: 2px solid whitesmoke;
+        border-radius: 5px;
+        padding: 12px 25px;
+        margin: 10px;
+        font-weight: 700;
+        color: white;
+    }
+</style>
+<body>
+    <p class="title">
+        How are you feeling today?
+    </p>
+
+    <button id="Happy" class="happy">Happy</button>
+    <button id="Sad" class="sad">Sad</button>
+    <button id="Excited" class="excited">Excited</button>
+    <div id="emoji"></div>
+    <script>
+        document.getElementById("Happy").addEventListener("click",function(){
+            document.body.style.backgroundColor="#ffeb3b";
+            document.getElementById("emoji").innerHTML=":)";
+        })
+        document.getElementById("Sad").addEventListener("click",function(){
+            document.body.style.backgroundColor="#008000";
+            document.getElementById("emoji").innerHTML=":))";
+        })
+        document.getElementById("Excited").addEventListener("click",function(){
+            document.body.style.backgroundColor="#ff0000";
+            document.getElementById("emoji").innerHTML=":)))";
+        })
+        
+        
+    </script>
+</body>
+</html>
